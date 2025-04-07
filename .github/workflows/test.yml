@@ -10,4 +10,4 @@ jobs: # The jobs that run in this workflow
       - name: run multiple commands # The name of the step
         run:  | # The command(s) to run in this step, in this case multiple commands are run using a pipe sign
          echo "Hello World" # The first command that prints "Hello World"
-         echo "This is Lauri" # The second command that prints "This is Deepak"
+         echo "This is Lauri" # The second command that prints "This is Lauri"
