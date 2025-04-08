@@ -86,3 +86,4 @@ jobs:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
             Congrats on opening new pull request! We appreciate your contribution. A maintainer will review it soon.
+          reactions: '+1, rocket'
