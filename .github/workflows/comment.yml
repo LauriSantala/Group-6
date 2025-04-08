@@ -73,7 +73,7 @@ jobs:
           result-encoding: string
 
       - name: Comment on first PR
-        if: steps.check-pr.outputs.result == 'true'
+        if: steps.check-pr.outputs.result == 'true' || steps.check-pr-output.result == 'false'
         uses: peter-evans/create-or-update-comment@v1
         with:
           issue-number: ${{ github.event.pull_request.number }}
